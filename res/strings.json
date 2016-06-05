@@ -24,17 +24,17 @@
 					{
 						"name" : "Search",
 						"description" : "Search for a local wingman and discuss plan and compensation details",
-						"icon_url" : ""
+						"icon_url" : "/image/icons/magnifying-glass.svg"
 					},
 					{
 						"name" : "Meet",
 						"description" : "Meet your wingman at the destination",
-						"icon_url" : ""
+						"icon_url" : "/image/icons/men-shaking-hands.svg"
 					},
 					{
 						"name" : "Enjoy",
 						"description" : "Let your wingman help you get lucky",
-						"icon_url" : ""
+						"icon_url" : "/image/icons/high-five.svg"
 					}
 				]
 			},
@@ -45,17 +45,17 @@
 					{
 						"name" : "Connect",
 						"description" : "We help connect you with local people who need your help",
-						"icon_url" : ""
+						"icon_url" : "/image/icons/manager.svg"
 					},
 					{
 						"name" : "Meet",
 						"description" : "Meet with your client at the destination and help them get lucky",
-						"icon_url" : ""
+						"icon_url" : "/image/icons/men-shaking-hands.svg"
 					},
 					{
 						"name" : "Compensation",
 						"description" : "Get compensated from your client for your help",
-						"icon_url" : ""
+						"icon_url" : "/image/icons/coin.svg"
 					}
 				]
 			},
@@ -66,17 +66,17 @@
 					{
 						"name" : "Connect",
 						"description" : "We help connect your business with wingmen",
-						"icon_url" : ""
+						"icon_url" : "/image/icons/manager.svg"
 					},
 					{
 						"name" : "Get Customers",
 						"description" : "Wingmen bring people to your venue",
-						"icon_url" : ""
+						"icon_url" : "/image/icons/multiple-users-silhouette.svg"
 					},
 					{
 						"name" : "Reward",
-						"description" : "Reward your wingmen with points",
-						"icon_url" : ""
+						"description" : "Reward your wingmen with points for discounts",
+						"icon_url" : "/image/icons/discount-sticker-with-percentage.svg"
 					}
 				]
 			}

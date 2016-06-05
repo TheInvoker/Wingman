@@ -45,13 +45,13 @@ body {
 	font-size:3.5em;
 	color:white;
 	font-family: "Helvetica Neue", sans-serif; 
-	text-shadow: 2px 2px #000000;
+	text-shadow: 6px 6px #000000;
 }
 .app_description {
 	font-size:1.7em;
 	color:white;
 	font-family: "Helvetica Neue", sans-serif; 
-	text-shadow: 2px 2px #000000;
+	text-shadow: 3px 3px #000000;
 }
 .menu_small {
 	font-size:0.8em;
@@ -77,12 +77,18 @@ form input[type='submit'] {
 	border-radius:3px;
 	font-size:1.5em;
 	padding:0.3em;
-	background-color:#51f5b5;
 	cursor:pointer;
-
+	background-color:white;
 	margin-top:1em;
 }
 
+.icon {
+	width:30px;
+	height:30px;
+	margin-right:10px;
+	display:block;
+	vertical-align:top;
+}
 
 
 .content {
