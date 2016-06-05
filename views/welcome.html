@@ -20,7 +20,7 @@
 				{{/with}}
 				{{#each items}}
 					{{#with this}}
-						<div class="menu-item menu_small"><a href="{{href}}">{{name}}</a></div>
+						<div class="menu-item menu_small menu_action"><a href="{{href}}">{{name}}</a></div>
 					{{/with}}
 				{{/each}}
 			{{/with}}
@@ -60,11 +60,13 @@
 										</div>
 									{{/with}}
 								</div>
+								<!--
 								<div>
 									<form>
 										<input type="submit" value="{{signup}}"/>
 									</form>
 								</div>
+								-->
 							</div>
 						{{/each}}
 					{{/with}}
