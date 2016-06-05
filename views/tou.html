@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>{{title}}</title>
+		
+		{{{meta_js_css_references}}}
+	</head>
+
+	<body>
+
+			
+		<div id="menu" class="menu_small">
+			{{#with menu}}
+				{{#with logo}}
+					<div class="menu-item menu-item-left logo">
+						<a href="/">
+							<img src="{{icon_url}}"/>
+						</a>
+					</div>
+				{{/with}}
+				{{#each items}}
+					{{#with this}}
+						<div class="menu-item">
+							<a href="{{href}}">{{name}}</a>
+						</div>
+					{{/with}}
+				{{/each}}
+				{{#each media}}
+					{{#with this}}
+						<div class="menu-item media_icon">
+							<a href="{{href}}" title="{{tooltip}}">
+								<img src="{{icon_url}}"/>
+							</a>
+						</div>
+					{{/with}}
+				{{/each}}
+			{{/with}}
+		</div>
+		
+		<div class="page">
+			<div id="content1_tou" class="content">
+				{{#with tou}}
+					<div class="large_header">{{title}}</div>
+					{{#each paras}}
+						{{#with this}}
+							<p>
+								<div class="medium_header">
+									{{title}}
+								</div>
+								<p class="regular_description">
+									{{text}}
+								</p>
+							</p>
+						{{/with}}
+					{{/each}}
+				{{/with}}
+			</div>
+			
+			
+			<div id="content4" class="content">
+				{{#with footer}}
+					<div>
+						{{#each links}}
+							{{#with this}}
+								<a href="{{href}}">{{title}}</a>{{#unless @last}} |{{/unless}}
+							{{/with}}
+						{{/each}}
+					</div>
+					<p class="small_description_dark">
+						{{copyright}}
+					</p>
+				{{/with}}
+			</div>
+		</div>
+		
+		
+		
+		<!--
+			<div>Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+		-->
+		
+	</body>
+
+</html> 

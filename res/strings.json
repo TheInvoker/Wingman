@@ -115,5 +115,30 @@
 			}
 		],
 		"copyright" : "© 2016 Wingman"
+	},
+	"tou" : {
+		"title" : "Terms of Use",
+		"paras" : [
+			{
+				"title" : "User Search",
+				"text" : "The user will go on our platform and browse for wingmen. They will be filtered to be ones found locally based on their GPS position retrieved from the web browser."
+			},
+			{
+				"title" : "Plan and Compensation",
+				"text" : "The user will negotiate with the wingman discussing how the plan will be and how the user will compensate the wingman. A recommended compensation strategy would be to pay the wingman a small flatfee when meeting. Then if the plan works, pay the wingmen the rest. The plan and compensation is in no way affiliated with Wingman. It is the user's and wingman's responsibility to handle the plan and compensation. We just connect the parties, then the parties handle the rest."
+			},
+			{
+				"title" : "Wingman",
+				"text" : "Users will be looking to get your help. You can write about your skills and expectations on your profile to make it easier for users to decide. It is your's and the user's responsibility to make sure your expectations are carried out when meeting with a client. This is in no way affiliated with Wingman. If you use a destination from our list of registered businesses, it is your responsibility to work out a compensation plan with the business."
+			},
+			{
+				"title" : "Rate and Review",
+				"text" : "The user can rate and review the wingman. This helps other users identify the quality and skills of the wingman when searching."
+			},
+			{
+				"title" : "Businesses",
+				"text" : "If you register, your business will be searchable as possible destinations in which users and wingmen can find on our platform. Also it is your responsibility to set up a compensation deal with any wingmen you want to work with."
+			}
+		]
 	}
 }
