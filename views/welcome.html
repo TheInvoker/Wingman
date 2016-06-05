@@ -89,7 +89,26 @@
 			<div id="content3" class="content">
 				{{#with subscribe}}
 					<div class="large_header">{{title}}</div>
-					<form>
+					<div class="regular_description">{{description}}</div>
+					<form method="post" action="{{form_url}}">
+						<br/>
+						<div>
+							<input type="email" name="email" placeholder="email"/>
+						</div>
+						<br/>
+						<div>
+							{{question1}}
+						</div>
+						<div>
+							{{#each @root.howitworks.scenarios}}
+								{{#with this}}
+									<input type="radio" name="role" value="{{title}}"{{#if @first}} checked="checked"{{/if}}>{{title}}<br>
+								{{/with}}
+							{{/each}}
+						</div>
+						<div>
+							<input type="submit" value="Subscribe"/>
+						</div>
 					</form>
 				{{/with}}
 			</div>

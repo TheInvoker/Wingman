@@ -97,6 +97,9 @@
 		]
 	},
 	"subscribe" : {
-		"title" : "Subscribe"
+		"title" : "Subscribe",
+		"description" : "Subscribe now for news about early access and beta release.",
+		"question1" : "What role would you be?",
+		"form_url" : "abc"
 	}
 }

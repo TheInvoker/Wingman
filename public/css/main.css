@@ -85,6 +85,9 @@ body {
 .medium_header {
 	font-size:1em;
 }
+.regular_description {
+	font-size:1em;
+}
 .small_description {
 	font-size:0.8em;
 	color:gray;
@@ -98,27 +101,7 @@ body {
 	flex:0 1 auto;
 }
 
-form input[type='submit'] {
-	border:2px solid black;
-	border-radius:5px;
-	font-size:1.5em;
-	padding:0.3em;
-	cursor:pointer;
-	background-color:white;
-	margin-top:1em;
-	
-	transition-property: background-color, color, border;
-	transition-duration: 0.4s;
-   -ms-transition-property: background-color, color, border;
-   -ms-transition-duration: 0.4s;
-   -webkit-transition-property: background-color, color, border;
-   -webkit-transition-duration: 0.4s;
-}
-form input[type='submit']:hover {
-	border:2px solid #1c4d30;
-	background-color:#40bc72;
-	color:white;
-}
+
 
 .logo img {
 	height:50px;
@@ -182,4 +165,35 @@ form input[type='submit']:hover {
 }
 #content3 {
 	background-color:#ddd;
+}
+#content3 form input[type='email'] {
+	width:100%;
+	border:2px solid gray;
+	font-size:1em;
+	padding:0.5em;
+	border-radius:5px;
+	box-sizing:border-box;
+}
+#content3 form input[type='submit'] {
+	width:100%;
+	border:2px solid black;
+	border-radius:5px;
+	font-size:1.5em;
+	padding:0.3em;
+	cursor:pointer;
+	background-color:white;
+	margin-top:1em;
+	box-sizing:border-box;
+	
+	transition-property: background-color, color, border;
+	transition-duration: 0.4s;
+   -ms-transition-property: background-color, color, border;
+   -ms-transition-duration: 0.4s;
+   -webkit-transition-property: background-color, color, border;
+   -webkit-transition-duration: 0.4s;
+}
+#content3 form input[type='submit']:hover {
+	border:2px solid #1c4d30;
+	background-color:#40bc72;
+	color:white;
 }
