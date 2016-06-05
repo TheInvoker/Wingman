@@ -6,14 +6,76 @@ html, body {
 body {
 	overflow-x: hidden;
 	overflow-y: hidden;
+	font-family: "museo-sans",sans-serif;
 }
 .page {
 	overflow-y: auto;
 	height:100%;
 }
 
-
-
-body,input,button {
-	font-family: Open Sans;
+/* FONTS */
+.app_header {
+	font-size:3.5em;
+	color:white;
+	font-family: "Helvetica Neue", sans-serif; 
 }
+.large_header {
+	font-size:2.5em;
+}
+.big_header {
+	font-size:1.4em;
+}
+.medium_header {
+	font-size:1em;
+}
+.small_description {
+	font-size:0.8em;
+	color:gray;
+}
+
+/* LAYOUTS */
+
+.content {
+	box-sizing:border-box;
+}
+.h_container {
+
+}
+.h_stack_container {
+	padding:1em 0em;
+}
+.h_stack_container:not(:last-child) {
+	border-bottom:1px solid gray;
+}
+.h_block {
+	border-radius:0.5em;
+	margin:1em 0 0 0;
+}
+.h_block > table {
+	display:inline-block;
+	width:300px;
+	vertical-align:top;
+}
+.h_block > table:not(:last-child) {
+	margin-right:2em;
+}
+
+
+
+
+#content1 {
+	background-image:url('/image/designer-led-lighting-lounge-club.jpg');
+	background-size:cover;
+	background-position:center center;
+	height:540px;
+	padding:2em;
+}
+
+
+
+
+#content2 {
+	margin:2em;
+}
+
+

@@ -7,7 +7,46 @@
 	</head>
 
 	<body>
-		{{{body}}}
+		<div class="page">
+			
+			<div id="content1" class="content">
+				<div class="app_header">{{title}}</div>
+			</div>
+			
+			
+			<div id="content2" class="content">
+				{{#with howitworks}}
+					<div class="large_header">{{title}}</div>
+					<div class="h_container">
+					{{#with scenarios}}
+						{{#each this}}
+							<div class="h_stack_container">
+								<div class="big_header">{{title}}</div>
+								{{#with steps}}
+									<div class="h_block">
+										{{#each this}}
+											<table>
+												<tr>
+													<td>
+														<img src="{{icon_url}}"/>
+													</td>
+													<td>
+														<div class="medium_header">{{name}}</div>
+														<div class="small_description">{{description}}</div>
+													</td>
+												</tr>
+											</table>
+										{{/each}}
+									</div>
+								{{/with}}
+							</div>
+						{{/each}}
+					{{/with}}
+					</div>
+				{{/with}}
+			</div>
+			
+		</div>
 	</body>
 
 </html> 

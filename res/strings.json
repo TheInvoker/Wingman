@@ -1,4 +1,68 @@
 {
 	"title" : "Wingman",
-	"body" : "Welcome"
+	"howitworks" : {
+		"title" : "How it Works For a",
+		"scenarios" : [
+			{
+				"title" : "Consumer",
+				"steps" : [
+					{
+						"name" : "Search",
+						"description" : "Search for a local wingman and discuss plan and compensation details",
+						"icon_url" : ""
+					},
+					{
+						"name" : "Meet",
+						"description" : "Meet your wingman at the destination",
+						"icon_url" : ""
+					},
+					{
+						"name" : "Enjoy",
+						"description" : "Let your wingman help you get lucky",
+						"icon_url" : ""
+					}
+				]
+			},
+			{
+				"title" : "Wingman",
+				"steps" : [
+					{
+						"name" : "Connect",
+						"description" : "We help connect you with local people who need your help",
+						"icon_url" : ""
+					},
+					{
+						"name" : "Meet",
+						"description" : "Meet with your client at the destination and help them get lucky",
+						"icon_url" : ""
+					},
+					{
+						"name" : "Paid",
+						"description" : "Get paid from your client for your help",
+						"icon_url" : ""
+					}
+				]
+			},
+			{
+				"title" : "Business",
+				"steps" : [
+					{
+						"name" : "Connect",
+						"description" : "We help connect your business with wingman",
+						"icon_url" : ""
+					},
+					{
+						"name" : "Get Customers",
+						"description" : "Wingman brings people to your venue",
+						"icon_url" : ""
+					},
+					{
+						"name" : "Reward",
+						"description" : "Reward wingman with points for your new customers",
+						"icon_url" : ""
+					}
+				]
+			}
+		]
+	}
 }
