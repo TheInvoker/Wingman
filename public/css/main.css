@@ -16,18 +16,28 @@ body {
 
 #menu {
 	border-bottom:1px solid gray;
-	flex:0 1 3em;
+	flex:0 1 50px;
 	text-align:right;
 }
 #menu .menu-item {
 	display:inline-block;
-	height:100%;
-	line-height:3.5em;
+	height:50px;
+	line-height:50px;
 	padding:0 1em;
 	text-align:center;
 	text-transform: uppercase;
 	font-weight:bold;
 	cursor:pointer;
+}
+#menu .menu-item a {
+	display:inline-block;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	color:black;
+} 
+#menu .menu-item-left {
+	float:left;
 }
 
 .page {
@@ -82,6 +92,10 @@ form input[type='submit'] {
 	margin-top:1em;
 }
 
+.logo {
+	position:relative;
+	top:8px;
+}
 .icon {
 	width:30px;
 	height:30px;
@@ -91,34 +105,34 @@ form input[type='submit'] {
 }
 
 
-.content {
-	box-sizing:border-box;
-}
+
 .h_container {
 
 }
-.h_stack_container {
+.h_container .h_stack_container {
 	padding:1em 0em;
 }
-.h_stack_container:not(:last-child) {
+.h_container .h_stack_container:not(:last-child) {
 	border-bottom:1px solid gray;
 }
-.h_block {
+.h_container .h_block {
 	border-radius:0.5em;
 	margin:1em 0 0 0;
 }
-.h_block > table {
+.h_container .h_block > table {
 	display:inline-block;
 	width:300px;
 	vertical-align:top;
 }
-.h_block > table:not(:last-child) {
+.h_container .h_block > table:not(:last-child) {
 	margin-right:2em;
 }
 
 
 
-
+.content {
+	box-sizing:border-box;
+}
 #content1 {
 	background-image:url('/image/designer-led-lighting-lounge-club.jpg');
 	background-size:cover;

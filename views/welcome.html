@@ -11,9 +11,16 @@
 			
 		<div id="menu">
 			{{#with menu}}
+				{{#with logo}}
+					<div class="menu-item menu-item-left menu_small logo">
+						<a href="/">
+							<img src="{{icon_url}}"/>
+						</a>
+					</div>
+				{{/with}}
 				{{#each items}}
 					{{#with this}}
-						<div class="menu-item menu_small">{{name}}</div>
+						<div class="menu-item menu_small"><a href="{{href}}">{{name}}</a></div>
 					{{/with}}
 				{{/each}}
 			{{/with}}
@@ -44,7 +51,7 @@
 															<img class="icon" src="{{icon_url}}"/>
 														</td>
 														<td>
-															<div class="medium_header">{{name}}</div>
+															<div class="medium_header">{{inc @index}}. {{name}}</div>
 															<div class="small_description">{{description}}</div>
 														</td>
 													</tr>

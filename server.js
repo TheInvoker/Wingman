@@ -16,6 +16,9 @@ var validator = require('validator');
     
 var RENDER_ERROR = "Error occured on server when rendering view.";
 
+handlebars.registerHelper("inc", function(value, options) {
+    return parseInt(value) + 1;
+});
 
 function isMobile(req) {
     var ua = req.headers['user-agent'];

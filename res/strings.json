@@ -1,13 +1,18 @@
 {
 	"title" : "Wingman",
-	"description" : "Find a wingman who can help you get lucky",
+	"description" : "Find a wingman to help you get lucky",
 	"menu" : {
+		"logo" : {
+			"icon_url" : "/image/icons/pen-feather-black-diagonal-shape-of-a-bird-wing.svg"
+		},
 		"items" : [
 			{
-				"name" : "How it works"
+				"name" : "How it works",
+				"href" : "#content2"
 			},
 			{
-				"name" : "Get Started"
+				"name" : "Get Started",
+				"href" : "#content3"
 			},
 			{
 				"name" : "Members Login"
@@ -54,7 +59,7 @@
 					},
 					{
 						"name" : "Compensation",
-						"description" : "Get compensated from your client for your help",
+						"description" : "Get compensated from your client",
 						"icon_url" : "/image/icons/coin.svg"
 					}
 				]
