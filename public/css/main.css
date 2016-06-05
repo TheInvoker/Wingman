@@ -116,9 +116,10 @@ form input[type='submit']:hover {
 	color:white;
 }
 
-.logo {
-	position:relative;
-	top:8px;
+.logo img {
+	height:50px;
+	padding:5px 0;
+	box-sizing:border-box;
 }
 .icon {
 	width:30px;

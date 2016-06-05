@@ -24,12 +24,12 @@
 		"title" : "How it Works For a",
 		"scenarios" : [
 			{
-				"title" : "Consumer",
+				"title" : "User",
 				"signup" : "Register",
 				"steps" : [
 					{
 						"name" : "Search",
-						"description" : "Search for a local wingman and discuss plan and compensation details",
+						"description" : "Search local wingmen, discuss ideas and compensation details",
 						"icon_url" : "/image/icons/magnifying-glass.svg"
 					},
 					{
@@ -50,7 +50,7 @@
 				"steps" : [
 					{
 						"name" : "Connect",
-						"description" : "We help connect you with local people who need your help",
+						"description" : "Connect with local users who need your help to get lucky",
 						"icon_url" : "/image/icons/manager.svg"
 					},
 					{
@@ -71,17 +71,17 @@
 				"steps" : [
 					{
 						"name" : "Connect",
-						"description" : "We help connect your business with wingmen",
+						"description" : "Connect your business with local wingmen",
 						"icon_url" : "/image/icons/manager.svg"
 					},
 					{
 						"name" : "Get Customers",
-						"description" : "Wingmen bring people to your venue",
+						"description" : "Wingmen bring people to your business",
 						"icon_url" : "/image/icons/multiple-users-silhouette.svg"
 					},
 					{
 						"name" : "Reward",
-						"description" : "Reward your wingmen with points for discounts",
+						"description" : "Reward your wingmen with discounts",
 						"icon_url" : "/image/icons/discount-sticker-with-percentage.svg"
 					}
 				]
