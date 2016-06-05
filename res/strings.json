@@ -9,6 +9,10 @@
 			{
 				"name" : "How it works",
 				"href" : "#content2"
+			},
+			{
+				"name" : "Subscribe",
+				"href" : "#content3"
 			}
 		],
 		"media" : [
@@ -91,5 +95,8 @@
 				]
 			}
 		]
+	},
+	"subscribe" : {
+		"title" : "Subscribe"
 	}
 }

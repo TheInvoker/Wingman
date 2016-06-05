@@ -12,7 +12,7 @@ body {
 }
 
 
-
+/* MENU */
 
 #menu {
 	border-bottom:1px solid gray;
@@ -52,17 +52,15 @@ body {
 	float:left;
 }
 
-.page {
-	overflow-y: auto;
-	height:100%;
-	flex:0 1 auto;
-}
+
+
 
 
 
 
 
 /* FONTS */
+
 .app_header {
 	font-size:3.5em;
 	color:white;
@@ -93,6 +91,12 @@ body {
 }
 
 /* LAYOUTS */
+
+.page {
+	overflow-y: auto;
+	height:100%;
+	flex:0 1 auto;
+}
 
 form input[type='submit'] {
 	border:2px solid black;
@@ -136,6 +140,8 @@ form input[type='submit']:hover {
 
 
 
+/* INSTRUCTIONS */
+
 .h_container {
 
 }
@@ -159,17 +165,21 @@ form input[type='submit']:hover {
 }
 
 
+/* CONTENT */
 
 .content {
 	box-sizing:border-box;
+	padding:2em;
 }
 #content1 {
 	background-image:url('/image/designer-led-lighting-lounge-club.jpg');
 	background-size:cover;
 	background-position:center center;
 	height:540px;
-	padding:2em;
 }
 #content2 {
 	margin:2em;
+}
+#content3 {
+	background-color:#ddd;
 }

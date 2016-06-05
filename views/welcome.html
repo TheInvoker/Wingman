@@ -9,10 +9,10 @@
 	<body>
 
 			
-		<div id="menu">
+		<div id="menu" class="menu_small">
 			{{#with menu}}
 				{{#with logo}}
-					<div class="menu-item menu-item-left menu_small logo">
+					<div class="menu-item menu-item-left logo">
 						<a href="/">
 							<img src="{{icon_url}}"/>
 						</a>
@@ -20,14 +20,14 @@
 				{{/with}}
 				{{#each items}}
 					{{#with this}}
-						<div class="menu-item menu_small">
+						<div class="menu-item">
 							<a href="{{href}}">{{name}}</a>
 						</div>
 					{{/with}}
 				{{/each}}
 				{{#each media}}
 					{{#with this}}
-						<div class="menu-item menu_small media_icon">
+						<div class="menu-item media_icon">
 							<a href="{{href}}" title="{{tooltip}}">
 								<img src="{{icon_url}}"/>
 							</a>
@@ -84,6 +84,16 @@
 					</div>
 				{{/with}}
 			</div>
+			
+			
+			<div id="content3" class="content">
+				{{#with subscribe}}
+					<div class="large_header">{{title}}</div>
+					<form>
+					</form>
+				{{/with}}
+			</div>
+			
 		</div>
 		
 		<!--
