@@ -58,7 +58,7 @@
 				"steps" : [
 					{
 						"name" : "Connect",
-						"description" : "Connect with local users who need your help to get lucky",
+						"description" : "Connect with local users who need your help",
 						"icon_url" : "/image/icons/manager.svg"
 					},
 					{
@@ -98,8 +98,26 @@
 	},
 	"subscribe" : {
 		"title" : "Subscribe",
+		"email_placeholder" : "email address",
 		"description" : "Subscribe now for news about early access and beta release.",
-		"question1" : "What role would you be?",
+		"question1" : "What role would you be interested in?",
 		"form_url" : "abc"
+	},
+	"footer" : {
+		"links" : [
+			{
+				"title" : "Contact",
+				"href" : "mailto:wingman@gmail.com"
+ 			},
+			{
+				"title" : "Help",
+				"href" : ""
+			},
+			{
+				"title" : "Terms of use",
+				"href" : ""
+			}
+		],
+		"copyright" : "© 2016 Wingman"
 	}
 }

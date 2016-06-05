@@ -93,7 +93,7 @@
 					<form method="post" action="{{form_url}}">
 						<br/>
 						<div>
-							<input type="email" name="email" placeholder="email"/>
+							<input type="email" name="email" placeholder="{{email_placeholder}}"/>
 						</div>
 						<br/>
 						<div>
@@ -110,6 +110,21 @@
 							<input type="submit" value="Subscribe"/>
 						</div>
 					</form>
+				{{/with}}
+			</div>
+			
+			<div id="content4" class="content">
+				{{#with footer}}
+					<div>
+						{{#each links}}
+							{{#with this}}
+								<a href="{{href}}">{{title}}</a>{{#unless @last}} |{{/unless}}
+							{{/with}}
+						{{/each}}
+					</div>
+					<p class="small_description_dark">
+						{{copyright}}
+					</p>
 				{{/with}}
 			</div>
 			
