@@ -9,19 +9,23 @@
 			{
 				"name" : "How it works",
 				"href" : "#content2"
+			}
+		],
+		"media" : [
+			{
+				"icon_url" : "/image/icons/facebook-logo.svg",
+				"href" : "",
+				"tooltip" : "Visit our facebook page"
 			},
 			{
-				"name" : "Get Started",
-				"href" : "#content3"
-			},
-			{
-				"name" : "Members Login",
-				"href" : "#content4"
+				"icon_url" : "/image/icons/twitter-letter-logo.svg",
+				"href" : "",
+				"tooltip" : "Visit our twitter page"
 			}
 		]
 	},
 	"howitworks" : {
-		"title" : "How it Works For a",
+		"title" : "How it Works",
 		"scenarios" : [
 			{
 				"title" : "User",

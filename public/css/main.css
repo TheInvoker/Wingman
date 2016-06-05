@@ -44,7 +44,7 @@ body {
    -webkit-transition-property: background-color, color;
    -webkit-transition-duration: 0.3s;
 }
-#menu .menu-item.menu_action a:hover {
+#menu .menu-item a:hover {
 	background-color:gray;
 	color:white;
 }
@@ -120,6 +120,11 @@ form input[type='submit']:hover {
 	height:50px;
 	padding:5px 0;
 	box-sizing:border-box;
+}
+.media_icon img {
+	height:30px;
+	box-sizing:border-box;
+	vertical-align:middle;
 }
 .icon {
 	width:30px;
