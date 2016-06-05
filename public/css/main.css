@@ -45,7 +45,7 @@ body {
    -webkit-transition-duration: 0.3s;
 }
 #menu .menu-item a:hover {
-	background-color:gray;
+	background-color:orange;
 	color:white;
 }
 #menu .menu-item-left {
@@ -65,13 +65,13 @@ body {
 	font-size:3.5em;
 	color:white;
 	font-family: "Helvetica Neue", sans-serif; 
-	text-shadow: 6px 6px #000000;
+	text-shadow: 2px 2px #000000;
 }
 .app_description {
 	font-size:1.7em;
 	color:white;
 	font-family: "Helvetica Neue", sans-serif; 
-	text-shadow: 3px 3px #000000;
+	text-shadow: 1px 1px #000000;
 }
 .menu_small {
 	font-size:0.8em;
@@ -158,9 +158,9 @@ body {
 	padding:2em;
 }
 #content1 {
-	background-image:url('/image/designer-led-lighting-lounge-club.jpg');
+	background-image:url('/image/download.jpg');
 	background-size:cover;
-	background-position:center center;
+	background-position:center 20%;
 	height:540px;
 }
 #content2 {
@@ -197,7 +197,7 @@ body {
 }
 #content3 form input[type='submit']:hover {
 	border:2px solid #1c4d30;
-	background-color:#40bc72;
+	background-color:orange;
 	color:white;
 }
 #content4 {

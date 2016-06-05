@@ -1,17 +1,7 @@
 var express = require('express');
 var app = express();
-var pg = require('pg');
-var pgp = require('pg-promise')();
-var expressSession = require('express-session');
-var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy;
-var bodyParser = require('body-parser');
-var cookieParser = require('cookie-parser');
-var socket = require('socket.io');
 var fs = require('fs');
 var handlebars = require('handlebars');
-var dateFormat = require('dateformat');
-var validator = require('validator');
 
     
 var RENDER_ERROR = "Error occured on server when rendering view.";
