@@ -76,6 +76,23 @@ app.get('/welcome', function (req, res) {
 	});
 });
 
+app.get('/tou', function (req, res) {
+	fs.readFile(__dirname + '/res/strings.json', 'utf8', function (err, res_data) {
+		if (err) throw err;
+		var res_data = JSON.parse(res_data);
+		
+		fs.readFile(__dirname + '/res/refs.html', 'utf8', function (err, ref_data) {
+			if (err) throw err;
+			res_data["meta_js_css_references"] = ref_data;
+			
+			var filename = __dirname + (isMobile(req) ? '/views/tou_mobile.html' : '/views/tou.html');
+			renderView(filename, res_data, function(code, str) {
+				res.writeHead(code); 
+				res.end(str);
+			});
+		});
+	});
+});
 
 
 var server = app.listen(process.env.PORT || 3000, function () {

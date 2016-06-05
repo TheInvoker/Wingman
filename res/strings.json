@@ -110,12 +110,8 @@
 				"href" : "mailto:wingman@gmail.com"
  			},
 			{
-				"title" : "Help",
-				"href" : ""
-			},
-			{
 				"title" : "Terms of use",
-				"href" : ""
+				"href" : "/tou"
 			}
 		],
 		"copyright" : "© 2016 Wingman"
