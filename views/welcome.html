@@ -7,10 +7,22 @@
 	</head>
 
 	<body>
-		<div class="page">
+
 			
+		<div id="menu">
+			{{#with menu}}
+				{{#each items}}
+					{{#with this}}
+						<div class="menu-item menu_small">{{name}}</div>
+					{{/with}}
+				{{/each}}
+			{{/with}}
+		</div>
+		
+		<div class="page">
 			<div id="content1" class="content">
 				<div class="app_header">{{title}}</div>
+				<div class="app_description">{{description}}</div>
 			</div>
 			
 			
@@ -21,32 +33,39 @@
 					{{#with scenarios}}
 						{{#each this}}
 							<div class="h_stack_container">
-								<div class="big_header">{{title}}</div>
-								{{#with steps}}
-									<div class="h_block">
-										{{#each this}}
-											<table>
-												<tr>
-													<td>
-														<img src="{{icon_url}}"/>
-													</td>
-													<td>
-														<div class="medium_header">{{name}}</div>
-														<div class="small_description">{{description}}</div>
-													</td>
-												</tr>
-											</table>
-										{{/each}}
-									</div>
-								{{/with}}
+								<div>
+									<div class="big_header">{{title}}</div>
+									{{#with steps}}
+										<div class="h_block">
+											{{#each this}}
+												<table>
+													<tr>
+														<td>
+															<img src="{{icon_url}}"/>
+														</td>
+														<td>
+															<div class="medium_header">{{name}}</div>
+															<div class="small_description">{{description}}</div>
+														</td>
+													</tr>
+												</table>
+											{{/each}}
+										</div>
+									{{/with}}
+								</div>
+								<div>
+									<form>
+										<input type="submit" value="{{signup}}"/>
+									</form>
+								</div>
 							</div>
 						{{/each}}
 					{{/with}}
 					</div>
 				{{/with}}
 			</div>
-			
 		</div>
+		
 	</body>
 
 </html> 

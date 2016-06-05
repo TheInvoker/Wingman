@@ -1,10 +1,25 @@
 {
 	"title" : "Wingman",
+	"description" : "Find a wingman who can help you get lucky",
+	"menu" : {
+		"items" : [
+			{
+				"name" : "How it works"
+			},
+			{
+				"name" : "Get Started"
+			},
+			{
+				"name" : "Members Login"
+			}
+		]
+	},
 	"howitworks" : {
 		"title" : "How it Works For a",
 		"scenarios" : [
 			{
 				"title" : "Consumer",
+				"signup" : "Register",
 				"steps" : [
 					{
 						"name" : "Search",
@@ -25,6 +40,7 @@
 			},
 			{
 				"title" : "Wingman",
+				"signup" : "Register",
 				"steps" : [
 					{
 						"name" : "Connect",
@@ -37,28 +53,29 @@
 						"icon_url" : ""
 					},
 					{
-						"name" : "Paid",
-						"description" : "Get paid from your client for your help",
+						"name" : "Compensation",
+						"description" : "Get compensated from your client for your help",
 						"icon_url" : ""
 					}
 				]
 			},
 			{
 				"title" : "Business",
+				"signup" : "Register",
 				"steps" : [
 					{
 						"name" : "Connect",
-						"description" : "We help connect your business with wingman",
+						"description" : "We help connect your business with wingmen",
 						"icon_url" : ""
 					},
 					{
 						"name" : "Get Customers",
-						"description" : "Wingman brings people to your venue",
+						"description" : "Wingmen bring people to your venue",
 						"icon_url" : ""
 					},
 					{
 						"name" : "Reward",
-						"description" : "Reward wingman with points for your new customers",
+						"description" : "Reward your wingmen with points",
 						"icon_url" : ""
 					}
 				]
