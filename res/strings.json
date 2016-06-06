@@ -13,6 +13,10 @@
 			{
 				"name" : "Subscribe",
 				"href" : "/welcome#content3"
+			},
+			{
+				"name" : "Terms of Use",
+				"href" : "/tou"
 			}
 		],
 		"media" : [
