@@ -57,7 +57,7 @@ app.get('/welcome', function (req, res) {
 			if (err) throw err;
 			res_data["meta_js_css_references"] = ref_data;
 			
-			var filename = __dirname + (isMobile(req) ? '/views/welcome_mobile.html' : '/views/welcome.html');
+			var filename = __dirname + (isMobile(req) ? '/views/welcome.html' : '/views/welcome.html');
 			renderView(filename, res_data, function(code, str) {
 				res.writeHead(code); 
 				res.end(str);
@@ -75,7 +75,7 @@ app.get('/tou', function (req, res) {
 			if (err) throw err;
 			res_data["meta_js_css_references"] = ref_data;
 			
-			var filename = __dirname + (isMobile(req) ? '/views/tou_mobile.html' : '/views/tou.html');
+			var filename = __dirname + (isMobile(req) ? '/views/tou.html' : '/views/tou.html');
 			renderView(filename, res_data, function(code, str) {
 				res.writeHead(code); 
 				res.end(str);

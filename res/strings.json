@@ -8,11 +8,11 @@
 		"items" : [
 			{
 				"name" : "How it works",
-				"href" : "#content2"
+				"href" : "/welcome#content2"
 			},
 			{
 				"name" : "Subscribe",
-				"href" : "#content3"
+				"href" : "/welcome#content3"
 			}
 		],
 		"media" : [
@@ -37,7 +37,7 @@
 				"steps" : [
 					{
 						"name" : "Search",
-						"description" : "Search local wingmen, discuss ideas and compensation details",
+						"description" : "Search for local wingman/wingwoman/winggroup",
 						"icon_url" : "/image/icons/magnifying-glass.svg"
 					},
 					{
@@ -63,12 +63,12 @@
 					},
 					{
 						"name" : "Meet",
-						"description" : "Meet with your client at the destination and help them get lucky",
+						"description" : "Meet your client at the destination",
 						"icon_url" : "/image/icons/men-shaking-hands.svg"
 					},
 					{
 						"name" : "Compensation",
-						"description" : "Get compensated from your client",
+						"description" : "Help client get lucky and get compensated",
 						"icon_url" : "/image/icons/coin.svg"
 					}
 				]
