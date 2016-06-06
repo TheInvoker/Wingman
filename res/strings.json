@@ -1,5 +1,6 @@
 {
 	"title" : "Wingman",
+	"window_title" : "Wingman: Find your wings",
 	"description" : "Find a wingman to help you get lucky",
 	"menu" : {
 		"logo" : {
@@ -22,12 +23,12 @@
 		"media" : [
 			{
 				"icon_url" : "/image/icons/facebook-logo.svg",
-				"href" : "",
+				"href" : "https://www.facebook.com/Wingman-Page-139711353104806/",
 				"tooltip" : "Visit our facebook page"
 			},
 			{
 				"icon_url" : "/image/icons/twitter-letter-logo.svg",
-				"href" : "",
+				"href" : "https://twitter.com/wingman749",
 				"tooltip" : "Visit our twitter page"
 			}
 		]
@@ -111,7 +112,7 @@
 		"links" : [
 			{
 				"title" : "Contact",
-				"href" : "mailto:wingman@gmail.com"
+				"href" : "mailto:wingman749@gmail.com"
  			},
 			{
 				"title" : "Terms of use",

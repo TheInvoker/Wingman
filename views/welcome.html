@@ -1,7 +1,7 @@
  <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{title}}</title>
+		<title>{{window_title}}</title>
 		
 		{{{meta_js_css_references}}}
 	</head>
@@ -28,7 +28,7 @@
 				{{#each media}}
 					{{#with this}}
 						<div class="menu-item media_icon">
-							<a href="{{href}}" title="{{tooltip}}">
+							<a href="{{href}}" target="_blank" title="{{tooltip}}">
 								<img src="{{icon_url}}"/>
 							</a>
 						</div>
